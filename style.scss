@@ -84,3 +84,30 @@ header {
 }
 
 //************** CARDS ***************/
+
+@mixin myBox($backColor, $color) {
+  background-color: $backColor;
+  color: $color;
+  width: 25%;
+  height: 15rem;
+  border: $myBorder;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.8rem;
+  .card1 {
+    @include myBox(green, white);
+  }
+  .card2 {
+    @include myBox(brown, white);
+  }
+  .card3 {
+    @include myBox(yellow, black);
+  }
+  .card4 {
+    @include myBox(rgb(40, 33, 56), white);
+  }
+}

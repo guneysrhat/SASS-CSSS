@@ -65,4 +65,42 @@ header a {
   max-width: 400px;
 }
 
+.cards {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.8rem;
+}
+.cards .card1 {
+  background-color: green;
+  color: white;
+  width: 25%;
+  height: 15rem;
+  border: 2px solid brown;
+  border-radius: 5px;
+}
+.cards .card2 {
+  background-color: brown;
+  color: white;
+  width: 25%;
+  height: 15rem;
+  border: 2px solid brown;
+  border-radius: 5px;
+}
+.cards .card3 {
+  background-color: yellow;
+  color: black;
+  width: 25%;
+  height: 15rem;
+  border: 2px solid brown;
+  border-radius: 5px;
+}
+.cards .card4 {
+  background-color: rgb(40, 33, 56);
+  color: white;
+  width: 25%;
+  height: 15rem;
+  border: 2px solid brown;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
