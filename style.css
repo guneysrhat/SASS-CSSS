@@ -29,6 +29,7 @@ header ul {
 header ul li {
   display: inline-block;
   display: 0.5rem;
+  margin-right: 1rem;
 }
 header ul li:hover {
   text-decoration: underline;
