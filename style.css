@@ -6,7 +6,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: hotpink;
+  background-color: pink;
   font-size: 1.2rem;
   color: white;
 }
@@ -36,6 +36,16 @@ header ul li:hover {
 header a {
   color: white;
   text-decoration: none;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: hotpink;
+  padding: 1rem;
+}
+.banner img {
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

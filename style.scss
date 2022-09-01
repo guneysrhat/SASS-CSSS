@@ -7,6 +7,7 @@
 //********************************************************/
 //* Variable Usage
 //********************************************************/
+$bgColor: pink;
 $fontSize: 1.2rem;
 $fontColor: white;
 $navBgColor: #30a7c3;
@@ -18,7 +19,7 @@ $myBorder: 2px solid brown;
 //********************************************************/
 body {
   font-family: $fontFamily;
-  background-color: $bannerBgColor;
+  background-color: $bgColor;
   font-size: $fontSize;
   color: $fontColor;
 }
@@ -49,5 +50,18 @@ header {
   a {
     color: $fontColor;
     text-decoration: none;
+  }
+}
+
+//************** BANNER ***************/
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: $bannerBgColor;
+  padding: 1rem;
+  aside {
+  }
+  img {
+    width: 50%;
   }
 }
