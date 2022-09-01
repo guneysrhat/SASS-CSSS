@@ -103,4 +103,22 @@ header a {
   border-radius: 5px;
 }
 
+.articles {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+.articles .article1, .articles .article2 {
+  background-color: grey;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 10rem;
+  margin-right: 1rem;
+}
+.articles .article2 {
+  background-color: hotpink;
+  border-color: green;
+}
+
 /*# sourceMappingURL=style.css.map */
