@@ -28,8 +28,7 @@ header ul {
 }
 header ul li {
   display: inline-block;
-  display: 0.5rem;
-  margin-right: 1rem;
+  padding: 0.5rem;
 }
 header ul li:hover {
   text-decoration: underline;
@@ -120,6 +119,41 @@ header a {
 .articles .article2 {
   background-color: hotpink;
   border-color: green;
+}
+
+footer .social-icons {
+  display: flex;
+  height: 10rem;
+}
+footer .social-icons .social1 {
+  width: 20%;
+  background-color: rgba(22, 141, 244, 0.616);
+  font-size: 1rem;
+  color: #990000;
+}
+footer .social-icons .social2 {
+  width: 20%;
+  background-color: rgba(46, 153, 245, 0.616);
+  font-size: 2rem;
+  color: #55004e;
+}
+footer .social-icons .social3 {
+  width: 20%;
+  background-color: rgba(70, 165, 246, 0.616);
+  font-size: 3rem;
+  color: #0fa8a1;
+}
+footer .social-icons .social4 {
+  width: 20%;
+  background-color: rgba(95, 177, 247, 0.616);
+  font-size: 4rem;
+  color: #121456;
+}
+footer .social-icons .social5 {
+  width: 20%;
+  background-color: rgba(119, 189, 248, 0.616);
+  font-size: 5rem;
+  color: #64c217;
 }
 
 /*# sourceMappingURL=style.css.map */

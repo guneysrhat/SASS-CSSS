@@ -40,8 +40,8 @@ header {
     list-style-type: none;
     li {
       display: inline-block;
-      display: 0.5rem;
-      margin-right: 1rem;
+      padding: 0.5rem;
+
       //! içinde bulundğumuz elementi refere etmek için & işareti kullanılır.
       &:hover {
         text-decoration: underline;
@@ -137,5 +137,22 @@ header {
     @extend.article1;
     background-color: hotpink;
     border-color: green;
+  }
+}
+
+//************** FOOTER ***************/
+$textColor: #990000, #55004e, #0fa8a1, #121456, #64c217;
+footer {
+  .social-icons {
+    display: flex;
+    height: 10rem;
+    @for $i from 1 through 5 {
+      .social#{$i} {
+        width: 20%;
+        background-color: lighten(rgba(11, 128, 229, 0.616), $i * 5);
+        font-size: $i * 1rem;
+        color: nth($textColor, $i);
+      }
+    }
   }
 }
