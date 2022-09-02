@@ -121,6 +121,9 @@ header a {
   border-color: green;
 }
 
+footer p {
+  background-color: lightgreen;
+}
 footer .social-icons {
   display: flex;
   height: 10rem;
